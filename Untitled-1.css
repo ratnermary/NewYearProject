@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.categor{ 
+    position: relative;
+    top: 250px;
+    left: 410px;  
+    height: 50%;
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.categor div img{
+    width: 50%;
+    height: 50%;
+}
+.categor div{
+    height: 45%;
+    width: 26%;
+    background-color: rgba(245, 245, 245, 0.856);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.ground{
+    width: 100%;
+    height: 100vh;
+    background-image: url("1.jpg");
+}
+div p{
+    text-shadow: 5px;
+}
